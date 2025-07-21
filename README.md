@@ -38,8 +38,10 @@ The dataset comprises 6.3 million mobile money transaction records. Some transac
 
  *App* (Optional): streamlit, joblib
 
- ## 🧠 Model Info
+ ## 🧠 Model Used
 
-- Trained using logistic regression / random forest (adjust based on your model)
-- Binary classification: 1 = Fraud, 0 = Not Fraud
+- **Model:** Logistic Regression
+- **Library:** scikit-learn
+- **Approach:** Balanced class weights, OneHotEncoding for categorical features, StandardScaler for numerical features
+- **Pipeline:** Used to ensure clean preprocessing and reproducibility
 
