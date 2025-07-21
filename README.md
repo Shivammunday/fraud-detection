@@ -31,7 +31,7 @@ The dataset comprises 6.3 million mobile money transaction records. Some transac
 [[1803358, 102964],
 [ 147, 2317]]
 
-##Tech Stack
+## Tech Stack
  *Language*: Python 3.8+
 
  *ML*: scikit-learn, pandas, numpy
