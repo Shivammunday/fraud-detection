@@ -5,7 +5,7 @@ import joblib
 # Load model
 @st.cache_resource
 def load_model():
-    return joblib.load(r"C:\Users\ShivamM\Downloads\archive (2)\fraud_detection.pkl")
+    return joblib.load("fraud_detection.pkl")
 
 model = load_model()
 
