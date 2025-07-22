@@ -4,8 +4,9 @@ It is a machine learning project designed to detect fraudulent financial transac
 
 - `app.py`: Main Streamlit app (your `.ipynb` code saved as `.py`)
 - `fraud_detection.pkl`: Pre-trained machine learning model
-- Sataset : https://www.kaggle.com/datasets/amanalisiddiqui/fraud-detection-dataset?resource=download
-🧾 **Dataset Overview**
+- Dataset : https://www.kaggle.com/datasets/amanalisiddiqui/fraud-detection-dataset?resource=download
+- 
+#🧾 **Dataset Overview**
 The dataset comprises 6.3 million mobile money transaction records. Some transactions were incorrectly labeled by existing detection algorithms, providing an opportunity to train a better fraud prediction model.
 ##🧠 Objective
 --Predict fraudulent transactions more accurately than existing methods.
@@ -14,9 +15,9 @@ The dataset comprises 6.3 million mobile money transaction records. Some transac
 
 --Evaluate performance using metrics like precision, recall, f1-score, and confusion matrix.
 
-## 🧪 Model Performance (Logistic Regression)
+# 🧪 Model Performance (Logistic Regression)
 
-# 📈 Classification Report
+## 📈 Classification Report
 
 | Label       | Precision | Recall | F1-Score | Support   |
 |-------------|-----------|--------|----------|-----------|
@@ -27,7 +28,7 @@ The dataset comprises 6.3 million mobile money transaction records. Some transac
 **Macro Average F1:** 0.51  
 **Weighted F1:** 0.97  
 
-# 🔍 Confusion Matrix
+## 🔍 Confusion Matrix
 [[1803358, 102964],
 [ 147, 2317]]
 
